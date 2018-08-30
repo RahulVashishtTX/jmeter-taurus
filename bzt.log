@@ -1,0 +1,202 @@
+[2018-08-30 16:15:07,587 INFO root] Taurus CLI Tool v1.12.1
+[2018-08-30 16:15:07,588 DEBUG root] Command-line options: {'option': None, 'log': 'C:\\Users\\Rahul\\AppData\\Local\\Temp\\bzt_i4_rl8a0.log', 'quiet': None, 'verbose': None, 'aliases': [], 'no_system_configs': None}
+[2018-08-30 16:15:07,588 DEBUG root] Python: CPython 3.5.3
+[2018-08-30 16:15:07,588 DEBUG root] Rev: ceb1d19192f4b754a0e00b2c47f5b2e31a424edb; OS: uname_result(system='Windows', node='DSCHD--PC-027', release='7', version='6.1.7601', machine='AMD64', processor='Intel64 Family 6 Model 60 Stepping 3, GenuineIntel')
+[2018-08-30 16:15:07,589 DEBUG root] Adding JMX shorthand config for: ['ATLAS_PerformanceEnvCOPY.jmx']
+[2018-08-30 16:15:07,590 DEBUG root] Dumping JSON config into C:\Users\Rahul\AppData\Local\Temp\jmx__tg4e97l.json
+[2018-08-30 16:15:07,590 INFO root] Starting with configs: ['C:\\Users\\Rahul\\AppData\\Local\\Temp\\jmx__tg4e97l.json']
+[2018-08-30 16:15:07,591 DEBUG root] Using personal config: C:\Users\Rahul\.bzt-rc
+[2018-08-30 16:15:07,591 INFO Engine] Configuring...
+[2018-08-30 16:15:07,591 DEBUG Engine] No machine configs dir: C:\etc\bzt.d
+[2018-08-30 16:15:07,591 DEBUG Engine] Base configs list: ['C:\\Program Files\\Python35\\lib\\site-packages\\bzt\\resources\\base-config.yml']
+[2018-08-30 16:15:07,592 DEBUG Engine.Configuration] Configs: ['C:\\Program Files\\Python35\\lib\\site-packages\\bzt\\resources\\base-config.yml']
+[2018-08-30 16:15:07,592 DEBUG Engine.Configuration] Reading C:\Program Files\Python35\lib\site-packages\bzt\resources\base-config.yml as YAML
+[2018-08-30 16:15:07,616 DEBUG Engine] User configs list: ['C:\\Users\\Rahul\\.bzt-rc', 'C:\\Users\\Rahul\\AppData\\Local\\Temp\\jmx__tg4e97l.json']
+[2018-08-30 16:15:07,616 DEBUG Engine.Configuration] Configs: ['C:\\Users\\Rahul\\.bzt-rc', 'C:\\Users\\Rahul\\AppData\\Local\\Temp\\jmx__tg4e97l.json']
+[2018-08-30 16:15:07,617 DEBUG Engine.Configuration] Reading C:\Users\Rahul\.bzt-rc as YAML
+[2018-08-30 16:15:07,621 DEBUG Engine.Configuration] Reading C:\Users\Rahul\AppData\Local\Temp\jmx__tg4e97l.json as YAML
+[2018-08-30 16:15:07,622 DEBUG Engine.Configuration] Configs: ['C:\\Users\\Rahul\\.bzt-rc', 'C:\\Users\\Rahul\\AppData\\Local\\Temp\\jmx__tg4e97l.json']
+[2018-08-30 16:15:07,622 DEBUG Engine.Configuration] Reading C:\Users\Rahul\.bzt-rc as YAML
+[2018-08-30 16:15:07,626 DEBUG Engine.Configuration] Reading C:\Users\Rahul\AppData\Local\Temp\jmx__tg4e97l.json as YAML
+[2018-08-30 16:15:07,627 DEBUG Engine] Requesting updates info: http://gettaurus.org/updates/?version=1.12.1&installID=windows-c81f664723fc
+[2018-08-30 16:15:07,627 DEBUG HTTPClient] Making HTTP request GET http://gettaurus.org/updates/?version=1.12.1&installID=windows-c81f664723fc
+[2018-08-30 16:15:07,628 INFO Engine] Artifacts dir: C:\Users\Rahul\.bzt\2018-08-30_16-15-07.628309
+[2018-08-30 16:15:07,630 DEBUG urllib3.connectionpool] Starting new HTTP connection (1): gettaurus.org:80
+[2018-08-30 16:15:07,631 DEBUG Engine] New artifact filename: C:\Users\Rahul\.bzt\2018-08-30_16-15-07.628309\effective
+[2018-08-30 16:15:07,633 DEBUG Engine.Configuration] Dumping YAML config into C:\Users\Rahul\.bzt\2018-08-30_16-15-07.628309\effective.yml
+[2018-08-30 16:15:07,650 DEBUG Engine.Configuration] Dumping JSON config into C:\Users\Rahul\.bzt\2018-08-30_16-15-07.628309\effective.json
+[2018-08-30 16:15:07,651 DEBUG Engine] New artifact filename: C:\Users\Rahul\.bzt\2018-08-30_16-15-07.628309\merged.yml
+[2018-08-30 16:15:07,651 DEBUG Engine.Configuration] Dumping YAML config into C:\Users\Rahul\.bzt\2018-08-30_16-15-07.628309\merged.yml
+[2018-08-30 16:15:07,652 DEBUG Engine] New artifact filename: C:\Users\Rahul\.bzt\2018-08-30_16-15-07.628309\merged.json
+[2018-08-30 16:15:07,652 DEBUG Engine.Configuration] Dumping JSON config into C:\Users\Rahul\.bzt\2018-08-30_16-15-07.628309\merged.json
+[2018-08-30 16:15:07,653 DEBUG Engine] Add existing artifact (move=False): C:\Users\Rahul\AppData\Local\Temp\jmx__tg4e97l.json
+[2018-08-30 16:15:07,653 DEBUG Engine] Copying C:\Users\Rahul\AppData\Local\Temp\jmx__tg4e97l.json to C:\Users\Rahul\.bzt\2018-08-30_16-15-07.628309\jmx__tg4e97l.json
+[2018-08-30 16:15:07,654 DEBUG Engine.Environment] Replace 'TAURUS_ARTIFACTS_DIR' in environment
+[2018-08-30 16:15:07,654 DEBUG root] Closing log handler: C:\Users\Rahul\AppData\Local\Temp\bzt_i4_rl8a0.log
+[2018-08-30 16:15:07,655 DEBUG root] Switched writing logs to C:\Users\Rahul\.bzt\2018-08-30_16-15-07.628309\bzt.log
+[2018-08-30 16:15:07,655 DEBUG root] Linting config
+[2018-08-30 16:15:07,658 INFO Engine] Preparing...
+[2018-08-30 16:15:07,658 DEBUG Engine] Module config: consolidator defaultdict(None, {'class': 'bzt.modules.aggregator.ConsolidatingAggregator'})
+[2018-08-30 16:15:07,658 DEBUG root] Importing module: bzt.modules.aggregator
+[2018-08-30 16:15:07,775 DEBUG root] Loading class: 'ConsolidatingAggregator' from <module 'bzt.modules.aggregator' from 'C:\\Program Files\\Python35\\lib\\site-packages\\bzt\\modules\\aggregator.py'>
+[2018-08-30 16:15:07,776 DEBUG Engine.consolidator] Buffer scaling setup: percentile 95.0 from [0.0, 50.0, 90.0, 95.0, 99.0, 99.9, 100.0] selected
+[2018-08-30 16:15:07,776 DEBUG Engine] Module config: monitoring defaultdict(None, {'class': 'bzt.modules.monitoring.Monitoring'})
+[2018-08-30 16:15:07,776 DEBUG root] Importing module: bzt.modules.monitoring
+[2018-08-30 16:15:07,778 DEBUG root] Loading class: 'Monitoring' from <module 'bzt.modules.monitoring' from 'C:\\Program Files\\Python35\\lib\\site-packages\\bzt\\modules\\monitoring.py'>
+[2018-08-30 16:15:07,778 DEBUG Engine] Module config: local defaultdict(None, {'class': 'bzt.modules.provisioning.Local'})
+[2018-08-30 16:15:07,778 DEBUG root] Importing module: bzt.modules.provisioning
+[2018-08-30 16:15:07,778 DEBUG root] Loading class: 'Local' from <module 'bzt.modules.provisioning' from 'C:\\Program Files\\Python35\\lib\\site-packages\\bzt\\modules\\provisioning.py'>
+[2018-08-30 16:15:07,779 DEBUG Engine] Module config: jmeter defaultdict(None, {'protocol-handlers': defaultdict(None, {'http': 'bzt.jmx.http.HTTPProtocolHandler'}), 'class': 'bzt.modules.jmeter.JMeterExecutor', 'properties': defaultdict(None, {'jmeter.save.saveservice.connect_time': 'true', 'jmeterengine.force.system.exit': 'true', 'summariser.name': '', 'jmeter.save.saveservice.autoflush': 'true'}), 'plugins': ['jpgc-casutg', 'jpgc-dummy', 'jpgc-ffw', 'jpgc-fifo', 'jpgc-functions', 'jpgc-json', 'jpgc-perfmon', 'jpgc-prmctl', 'jpgc-tst']})
+[2018-08-30 16:15:07,779 DEBUG root] Importing module: bzt.modules.jmeter
+[2018-08-30 16:15:07,792 DEBUG root] Loading class: 'JMeterExecutor' from <module 'bzt.modules.jmeter' from 'C:\\Program Files\\Python35\\lib\\site-packages\\bzt\\modules\\jmeter.py'>
+[2018-08-30 16:15:07,792 DEBUG Engine.local] Preparing executor: jmeter/191063936
+[2018-08-30 16:15:07,793 DEBUG Engine.jmeter] Extract defaultdict(None, {'script': 'ATLAS_PerformanceEnvCOPY.jmx'}) into scenarios
+[2018-08-30 16:15:07,794 DEBUG Engine] New artifact filename: C:\Users\Rahul\.bzt\2018-08-30_16-15-07.628309\jmeter.log
+[2018-08-30 16:15:07,794 DEBUG Engine.jmeter] Checking if port 4445 is free
+[2018-08-30 16:15:07,794 DEBUG Engine.jmeter] Port 4445 is free
+[2018-08-30 16:15:07,795 DEBUG Engine.jmeter] Using port 4445 for management
+[2018-08-30 16:15:07,796 DEBUG Engine.jmeter.JavaVM] Trying JavaVM: ['java', '-version']
+[2018-08-30 16:15:07,989 DEBUG Engine.jmeter.JavaVM] JavaVM output: java version "1.8.0_171"
+Java(TM) SE Runtime Environment (build 1.8.0_171-b11)
+Java HotSpot(TM) 64-Bit Server VM (build 25.171-b11, mixed mode)
+[2018-08-30 16:15:07,990 DEBUG Engine.jmeter.TclLibrary] Checking if TCL_LIBRARY variable is present in environment
+[2018-08-30 16:15:07,990 DEBUG Engine.jmeter.TclLibrary] TCL_LIBRARY environment variable is not present
+[2018-08-30 16:15:07,991 DEBUG Engine.jmeter.TclLibrary] Tcl directory was found: C:\Program Files\Python35\tcl\tcl8.6
+[2018-08-30 16:15:07,991 DEBUG Engine.jmeter.TclLibrary] Setting environment TCL_LIBRARY=C:\Program Files\Python35\tcl\tcl8.6
+[2018-08-30 16:15:07,991 DEBUG Engine.jmeter.TclLibrary] Checking if TCL_LIBRARY variable is present in environment
+[2018-08-30 16:15:07,991 DEBUG Engine.jmeter.TclLibrary] TCL_LIBRARY environment variable is present
+[2018-08-30 16:15:07,992 DEBUG Engine.jmeter.JMeter] Trying jmeter: C:\Users\Rahul\.bzt\jmeter-taurus\4.0\bin\jmeter.bat
+[2018-08-30 16:15:07,992 DEBUG bzt.utils] Executing shell: ['C:\\Users\\Rahul\\.bzt\\jmeter-taurus\\4.0\\bin\\jmeter.bat', '-j', 'C:\\Users\\Rahul\\AppData\\Local\\Temp\\jmeter9evh0i77log', '--version'] at .
+[2018-08-30 16:15:08,025 DEBUG Engine.jmeter.JMeter] JMeter check: The JMETER_HOME environment variable is not defined correctly
+This environment variable is needed to run this program
+ / None
+[2018-08-30 16:15:08,026 DEBUG Engine.jmeter] Load: LoadSpec(concurrency=None, throughput=None, ramp_up=None, hold=0, iterations=None, duration=None, steps=None)
+[2018-08-30 16:15:08,034 DEBUG Engine] New artifact filename: C:\Users\Rahul\.bzt\2018-08-30_16-15-07.628309\kpi.jtl
+[2018-08-30 16:15:08,035 DEBUG Engine] New artifact filename: C:\Users\Rahul\.bzt\2018-08-30_16-15-07.628309\error.jtl
+[2018-08-30 16:15:08,037 DEBUG Engine.jmeter] Enforcing parent sample for transaction controller
+[2018-08-30 16:15:08,039 INFO Engine.jmeter] 27 obsolete CookieManagers are found and fixed
+[2018-08-30 16:15:08,041 DEBUG Engine.jmeter.LoadSettingsProcessor] Thread group detection: duration not found, regular ThreadGroup will be used
+[2018-08-30 16:15:08,041 DEBUG Engine.jmeter.LoadSettingsProcessor] No iterations/concurrency/duration found, thread group modification is skipped
+[2018-08-30 16:15:08,042 DEBUG JMX] Saving JMX to: C:\Users\Rahul\.bzt\modified_ATLAS_PerformanceEnvCOPY.jmx
+[2018-08-30 16:15:08,046 DEBUG Engine.jmeter] Additional properties: defaultdict(None, {'summariser.name': '', 'jmeterengine.force.system.exit': 'true', 'jmeterengine.nongui.maxport': 4445, 'user.classpath': 'C:/Users/Rahul/.bzt/2018-08-30_16-15-07.628309;C:/Users/Rahul/.bzt', 'jmeter.save.saveservice.autoflush': 'true', 'sampleresult.default.encoding': 'UTF-8', 'jmeter.save.saveservice.connect_time': 'true', 'jmeter.save.saveservice.timestamp_format': 'ms', 'jmeterengine.nongui.port': 4445})
+[2018-08-30 16:15:08,046 DEBUG Engine] New artifact filename: C:\Users\Rahul\.bzt\2018-08-30_16-15-07.628309\jmeter-bzt.properties
+[2018-08-30 16:15:08,048 DEBUG Engine.jmeter.JMeter] Passing JVM_ARGS: ''
+[2018-08-30 16:15:08,048 DEBUG bzt.utils] Executing shell: ['C:\\Users\\Rahul\\.bzt\\jmeter-taurus\\4.0\\bin\\PluginsManagerCMD.bat', 'install-for-jmx', 'C:\\Users\\Rahul\\.bzt\\modified_ATLAS_PerformanceEnvCOPY.jmx'] at .
+[2018-08-30 16:15:08,271 DEBUG urllib3.connectionpool] http://gettaurus.org:80 "GET /updates/?version=1.12.1&installID=windows-c81f664723fc HTTP/1.1" 200 60
+[2018-08-30 16:15:08,272 DEBUG Engine] Taurus updates info: {'latest': '1.12.1', 'needsUpgrade': False}
+[2018-08-30 16:15:08,272 DEBUG Engine] Installation is up-to-date
+[2018-08-30 16:15:13,807 DEBUG Engine.jmeter.JMeter] Try to detect plugins for C:\Users\Rahul\.bzt\modified_ATLAS_PerformanceEnvCOPY.jmx
+2018-08-30 16:15:08,776 INFO o.j.r.PluginManagerCMD: Command is: install-for-jmx
+2018-08-30 16:15:09,011 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=windows_7-d9eafed23afcf5968ee2f58ff9205d32-nongui
+2018-08-30 16:15:11,998 INFO o.j.r.PluginManager: Plugins Status: [jpgc-functions=2.1, jpgc-casutg=2.5, jpgc-dummy=0.2, jpgc-ffw=2.0, jpgc-fifo=0.2, jpgc-json=2.6, jpgc-prmctl=0.4, jpgc-perfmon=2.1, jpgc-plugins-manager=1.1, jpgc-tst=2.5, jmeter-core=4.0, jmeter-ftp=4.0, jmeter-http=4.0, jmeter-jdbc=4.0, jmeter-jms=4.0, jmeter-junit=4.0, jmeter-java=4.0, jmeter-ldap=4.0, jmeter-mail=4.0, jmeter-mongodb=4.0, jmeter-native=4.0, jmeter-tcp=4.0, jmeter-components=4.0]
+2018-08-30 16:15:12,000 INFO o.j.r.PluginManagerCMD: Params line is: C:\Users\Rahul\.bzt\modified_ATLAS_PerformanceEnvCOPY.jmx
+2018-08-30 16:15:12,578 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-08-30 16:15:12,588 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2018-08-30 16:15:12,594 INFO o.a.j.s.SaveService: Using SaveService properties version 4.0
+2018-08-30 16:15:12,645 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [aggregate_report_total_label]
+2018-08-30 16:15:12,737 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-08-30 16:15:12,738 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-08-30 16:15:12,738 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-08-30 16:15:12,738 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-08-30 16:15:12,738 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-08-30 16:15:12,738 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-08-30 16:15:12,753 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2018-08-30 16:15:12,791 INFO o.j.r.PluginManager: Finishing without changes
+
+b''
+[2018-08-30 16:15:13,807 DEBUG Engine] New artifact filename: C:\Users\Rahul\.bzt\2018-08-30_16-15-07.628309\jmeter.out
+[2018-08-30 16:15:13,807 DEBUG Engine] New artifact filename: C:\Users\Rahul\.bzt\2018-08-30_16-15-07.628309\jmeter.err
+[2018-08-30 16:15:13,809 DEBUG Engine] Module config: final-stats defaultdict(None, {'class': 'bzt.modules.reporting.FinalStatus'})
+[2018-08-30 16:15:13,809 DEBUG root] Importing module: bzt.modules.reporting
+[2018-08-30 16:15:13,837 DEBUG easyprocess] version=0.2.3
+[2018-08-30 16:15:13,841 DEBUG pyvirtualdisplay] version=0.2.1
+[2018-08-30 16:15:13,843 DEBUG root] Loading class: 'FinalStatus' from <module 'bzt.modules.reporting' from 'C:\\Program Files\\Python35\\lib\\site-packages\\bzt\\modules\\reporting.py'>
+[2018-08-30 16:15:13,843 DEBUG Engine] Module config: console defaultdict(None, {'class': 'bzt.modules.console.ConsoleStatusReporter'})
+[2018-08-30 16:15:13,844 DEBUG root] Importing module: bzt.modules.console
+[2018-08-30 16:15:13,844 DEBUG root] Loading class: 'ConsoleStatusReporter' from <module 'bzt.modules.console' from 'C:\\Program Files\\Python35\\lib\\site-packages\\bzt\\modules\\console.py'>
+[2018-08-30 16:15:13,844 DEBUG Engine.console] Can't use 'console' screen, trying 'gui'
+[2018-08-30 16:15:13,855 DEBUG Engine.Configuration] Dumping YAML config into C:\Users\Rahul\.bzt\2018-08-30_16-15-07.628309\effective.yml
+[2018-08-30 16:15:13,878 DEBUG Engine.Configuration] Dumping JSON config into C:\Users\Rahul\.bzt\2018-08-30_16-15-07.628309\effective.json
+[2018-08-30 16:15:13,879 INFO Engine] Starting...
+[2018-08-30 16:15:13,880 DEBUG Engine] Startup <bzt.modules.monitoring.Monitoring object at 0x0000000004254828>
+[2018-08-30 16:15:13,880 DEBUG Engine] Startup <bzt.modules.aggregator.ConsolidatingAggregator object at 0x0000000004254390>
+[2018-08-30 16:15:13,880 DEBUG Engine] Startup <bzt.modules.reporting.FinalStatus object at 0x000000000B6B6978>
+[2018-08-30 16:15:13,880 DEBUG Engine] Startup <bzt.modules.console.ConsoleStatusReporter object at 0x000000000B6B6630>
+[2018-08-30 16:15:13,881 INFO Engine.console] Waiting for results...
+[2018-08-30 16:15:13,881 DEBUG Engine] Startup <bzt.modules.provisioning.Local object at 0x0000000004254BA8>
+[2018-08-30 16:15:13,881 DEBUG Engine.local] Delay setup for jmeter/ATLAS_PerformanceEnvCOPY.jmx: 0(start-at) + 0(delay) = 0
+[2018-08-30 16:15:13,884 DEBUG Engine.Configuration] Dumping YAML config into C:\Users\Rahul\.bzt\2018-08-30_16-15-07.628309\effective.yml
+[2018-08-30 16:15:13,905 DEBUG Engine.Configuration] Dumping JSON config into C:\Users\Rahul\.bzt\2018-08-30_16-15-07.628309\effective.json
+[2018-08-30 16:15:13,906 DEBUG root] Leveling down log file verbosity to INFO, use -v option to have DEBUG messages enabled
+[2018-08-30 16:15:13,906 DEBUG root] Leveled up log file verbosity
+[2018-08-30 16:15:13,907 DEBUG bzt.utils] Executing shell: ['C:\\Users\\Rahul\\.bzt\\jmeter-taurus\\4.0\\bin\\jmeter.bat', '-n', '-t', 'C:\\Users\\Rahul\\.bzt\\modified_ATLAS_PerformanceEnvCOPY.jmx', '-j', 'C:\\Users\\Rahul\\.bzt\\2018-08-30_16-15-07.628309\\jmeter.log', '-q', 'C:\\Users\\Rahul\\.bzt\\2018-08-30_16-15-07.628309\\jmeter-bzt.properties'] at C:\Users\Rahul\.bzt
+[2018-08-30 16:15:13,921 DEBUG root] Leveling down log file verbosity to INFO, use -v option to have DEBUG messages enabled
+[2018-08-30 16:15:14,255 INFO Engine.console] Did not mute console logging
+[2018-08-30 16:15:14,355 INFO Engine.console] Waiting for finish...
+[2018-08-30 16:15:21,588 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 4s
+[2018-08-30 16:15:51,600 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 32s
+[2018-08-30 16:20:25,745 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 37s
+[2018-08-30 16:22:15,799 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 134s
+[2018-08-30 16:23:17,907 WARNING Engine] Please wait for graceful shutdown...
+[2018-08-30 16:23:17,908 DEBUG root] Leveled up log file verbosity
+[2018-08-30 16:23:17,908 INFO Engine] Shutting down...
+[2018-08-30 16:23:17,909 DEBUG Engine] Current stop reason: GUI window was closed
+[2018-08-30 16:23:17,909 DEBUG Engine.local] Shutdown jmeter/ATLAS_PerformanceEnvCOPY.jmx
+[2018-08-30 16:23:18,909 INFO Engine.jmeter] Sending Shutdown command to JMeter on port 4445...
+[2018-08-30 16:23:23,915 INFO Engine.jmeter] Sending StopTestNow command to JMeter on port 4445...
+[2018-08-30 16:23:24,918 DEBUG Engine.jmeter] JMeter stopped on StopTestNow command
+[2018-08-30 16:23:24,918 DEBUG Engine.console] No logger_handler or orig_stream was detected
+[2018-08-30 16:23:24,920 DEBUG Engine.Configuration] Dumping YAML config into C:\Users\Rahul\.bzt\2018-08-30_16-15-07.628309\effective.yml
+[2018-08-30 16:23:24,941 DEBUG Engine.Configuration] Dumping JSON config into C:\Users\Rahul\.bzt\2018-08-30_16-15-07.628309\effective.json
+[2018-08-30 16:23:24,941 WARNING root] Interrupted by user
+[2018-08-30 16:23:24,955 DEBUG root] ManualShutdown: GUI window was closed
+  File "C:\Program Files\Python35\lib\site-packages\bzt\cli.py", line 254, in perform
+    self.engine.run()
+  File "C:\Program Files\Python35\lib\site-packages\bzt\engine.py", line 224, in run
+    reraise(exc_info)
+  File "C:\Program Files\Python35\lib\site-packages\bzt\six\py3.py", line 84, in reraise
+    raise exc
+  File "C:\Program Files\Python35\lib\site-packages\bzt\engine.py", line 206, in run
+    self._wait()
+  File "C:\Program Files\Python35\lib\site-packages\bzt\engine.py", line 245, in _wait
+    while not self._check_modules_list():
+  File "C:\Program Files\Python35\lib\site-packages\bzt\engine.py", line 232, in _check_modules_list
+    finished = bool(module.check())
+  File "C:\Program Files\Python35\lib\site-packages\bzt\modules\console.py", line 155, in check
+    self.__update_screen()
+  File "C:\Program Files\Python35\lib\site-packages\bzt\modules\console.py", line 192, in __update_screen
+    self.__repaint()
+  File "C:\Program Files\Python35\lib\site-packages\bzt\modules\console.py", line 293, in __repaint
+    self.screen.draw_screen(self.screen_size, canvas)
+  File "C:\Program Files\Python35\lib\site-packages\bzt\modules\screen.py", line 130, in draw_screen
+    raise ManualShutdown("GUI window was closed")
+[2018-08-30 16:23:24,955 INFO Engine] Post-processing...
+[2018-08-30 16:23:24,956 DEBUG Engine.local] Post-process jmeter/ATLAS_PerformanceEnvCOPY.jmx
+[2018-08-30 16:23:24,956 DEBUG Engine] Add existing artifact (move=True): C:\Users\Rahul\.bzt\modified_ATLAS_PerformanceEnvCOPY.jmx
+[2018-08-30 16:23:24,956 DEBUG Engine] Moving C:\Users\Rahul\.bzt\modified_ATLAS_PerformanceEnvCOPY.jmx to C:\Users\Rahul\.bzt\2018-08-30_16-15-07.628309\modified_ATLAS_PerformanceEnvCOPY.jmx
+[2018-08-30 16:23:24,957 DEBUG Engine.jmeter.JTLErrorsReader.FileReader] Reading: C:\Users\Rahul\.bzt\2018-08-30_16-15-07.628309\error.jtl
+[2018-08-30 16:23:24,958 DEBUG Engine.jmeter.JTLErrorsReader.FileReader] Reading: C:\Users\Rahul\.bzt\2018-08-30_16-15-07.628309\error.jtl
+[2018-08-30 16:23:24,959 DEBUG Engine.jmeter.JTLReader.IncrementalCSVReader.FileReader] Reading: C:\Users\Rahul\.bzt\2018-08-30_16-15-07.628309\kpi.jtl
+[2018-08-30 16:23:24,959 DEBUG Engine.jmeter.JTLReader.IncrementalCSVReader] Read: 1 lines / 207 bytes (at speed 1048576)
+[2018-08-30 16:23:24,959 DEBUG Engine.jmeter.JTLReader] Buffer len: 2; Known errors count: 3
+[2018-08-30 16:23:24,959 DEBUG Engine.jmeter.JTLReader] Aggregating: 1535626039
+[2018-08-30 16:23:25,049 DEBUG Engine.jmeter.JTLReader] Aggregating: 1535626226
+[2018-08-30 16:23:25,142 DEBUG Engine.consolidator] Consolidator buffer[3]: dict_keys([1535626226, 1535625990, 1535626039])
+[2018-08-30 16:23:25,142 DEBUG Engine.consolidator] Merging into 1535625990
+[2018-08-30 16:23:25,142 DEBUG Engine.consolidator] Merging 1535625990
+[2018-08-30 16:23:25,373 DEBUG Engine.consolidator] Processed datapoint: 1535625990/None
+[2018-08-30 16:23:25,373 DEBUG Engine.consolidator] Merging into 1535626039
+[2018-08-30 16:23:25,373 DEBUG Engine.consolidator] Merging 1535626039
+[2018-08-30 16:23:25,657 DEBUG Engine.consolidator] Processed datapoint: 1535626039/None
+[2018-08-30 16:23:25,657 DEBUG Engine.consolidator] Merging into 1535626226
+[2018-08-30 16:23:25,657 DEBUG Engine.consolidator] Merging 1535626226
+[2018-08-30 16:23:25,954 DEBUG Engine.consolidator] Processed datapoint: 1535626226/None
+[2018-08-30 16:23:25,955 INFO Engine.final-stats] Test duration: 0:08:11
+[2018-08-30 16:23:25,956 INFO Engine.final-stats] Samples count: 21, 14.29% failures
+[2018-08-30 16:23:25,956 INFO Engine.final-stats] Average times: total 42.571, latency 3.840, connect 4.094
+[2018-08-30 16:23:26,120 DEBUG Engine.console] No logger_handler or orig_stream was detected
+[2018-08-30 16:23:26,126 DEBUG Engine.Configuration] Dumping YAML config into C:\Users\Rahul\.bzt\2018-08-30_16-15-07.628309\effective.yml
+[2018-08-30 16:23:26,152 DEBUG Engine.Configuration] Dumping JSON config into C:\Users\Rahul\.bzt\2018-08-30_16-15-07.628309\effective.json
+[2018-08-30 16:23:26,154 INFO root] Artifacts dir: C:\Users\Rahul\.bzt\2018-08-30_16-15-07.628309
+[2018-08-30 16:23:26,154 WARNING root] Done performing with code: 2
+[2018-08-30 16:23:26,156 DEBUG root] Closing log handler: C:\Users\Rahul\.bzt\2018-08-30_16-15-07.628309\bzt.log
